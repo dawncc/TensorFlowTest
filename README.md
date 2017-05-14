@@ -30,3 +30,18 @@ Hello, TensorFlow!
 $ git clone --recurse-submodules https://github.com/tensorflow/tensorflow
 --recurse-submodules 参数是必须得, 用于获取 TesorFlow 依赖的 protobuf 库.
 ```
+# Python环境搭建
+下载地址： http://www.python.org/download/
+
+## 新建main.py文件
+```python
+import input_data
+mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
+```
+**执行**
+```python
+python main.py
+``
+自动下载数据训练文件
+|--__pycache__
+    |--input_data.cpython-36
