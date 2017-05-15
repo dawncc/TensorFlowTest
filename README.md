@@ -43,5 +43,7 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 python main.py
 ```
 **自动下载数据训练文件**
+```
 |--__pycache__
     |--input_data.cpython-36
+```
