@@ -60,3 +60,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 root@:~/user/jupyter# 
 
 ```
+## 启动tensorboard
+```
+tensorboard --logdir /usr/local/python36/lib/python3.6/site-packages/tensorflow
+```
+
