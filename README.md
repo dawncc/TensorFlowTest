@@ -47,3 +47,16 @@ python main.py
 |--__pycache__
     |--input_data.cpython-36
 ```
+## 查看版本和路径
+```python
+root@:~/user/jupyter# python
+Python 3.6.0 (default, May 16 2017, 22:05:15) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import tensorflow as tf
+>>> tf.__path__
+['/usr/local/python36/lib/python3.6/site-packages/tensorflow']
+>>> exit()
+root@:~/user/jupyter# 
+
+```
